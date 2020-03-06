@@ -1,7 +1,5 @@
 <?php
-require_once 'Caracter.php';
+require_once 'Player.php';
 
-$benois = new Character(999, 'Swann', 3.4, null);
-$pet = new Pet(9, 'toyota', 1.4, 'Platypet');
-
-$benois->SetPet($pet);
+$p = new Player(999, 'Noe', 1);
+$p = new Pet(66, 'Alex', 10, 'Humain');
